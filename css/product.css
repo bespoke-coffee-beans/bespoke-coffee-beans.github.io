@@ -2,17 +2,21 @@
   max-width: 960px;
 }
 
+.link-secondary {
+  color: #f2f4f3;
+}
+
 /*
  * Custom translucent site header
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: #DE370D;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #8e8e8e;
+  color: #ffffff;
   transition: color .15s ease-in-out;
 }
 .site-header a:hover {
@@ -54,6 +58,13 @@
   background-color: #e5e5e5;
 }
 
+footer {
+  background-color: #0a0908;
+}
+
+footer a {
+  color: #f2f4f3;
+}
 
 /*
  * Extra utilities
