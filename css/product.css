@@ -25,6 +25,17 @@
 }
 
 /*
+ * Home
+ */
+
+ .hero-home {
+   background-image: url('/images/hero-home.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+
+/*
  * Dummy devices (replace them with your own or something else entirely!)
  */
 
@@ -58,13 +69,15 @@
   background-color: #e5e5e5;
 }
 
+/*
+ * Footer
+ */
+
 footer {
   background-color: #0a0908;
 }
 
-footer a {
-  color: #f2f4f3;
-}
+
 
 /*
  * Extra utilities
