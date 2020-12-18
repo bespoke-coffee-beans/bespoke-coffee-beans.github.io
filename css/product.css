@@ -24,15 +24,21 @@
   text-decoration: none;
 }
 
+.site-header .site-name a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /*
  * Home
  */
 
  .hero-home {
-   background-image: url('/images/hero-home.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/hero-home.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   color: white;
  }
 
 /*
@@ -75,6 +81,14 @@
 
 footer {
   background-color: #0a0908;
+}
+
+footer h5 {
+  color: #f2f4f3;
+}
+
+footer a {
+  color: #f2f4f3;
 }
 
 
