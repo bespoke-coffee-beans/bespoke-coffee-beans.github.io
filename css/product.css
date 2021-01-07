@@ -6,6 +6,11 @@
   color: #f2f4f3;
 }
 
+.btn {
+  background-color: #4392f1;
+  color: #000000;
+}
+
 /*
  * Custom translucent site header
  */
@@ -27,6 +32,10 @@
 .site-header .site-name a {
   font-weight: bold;
   text-decoration: none;
+}
+
+.site-header .logo {
+  max-width: 125px;
 }
 
 /*
